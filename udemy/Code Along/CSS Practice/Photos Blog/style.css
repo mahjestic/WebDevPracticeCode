@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Raleway", sans-serif;
+}
+section {
+	text-align: center;
+}
+img {
+	/* 30 + 30 + 30 + [10%] */
+	width: 30%;
+	height: 427px;
+	object-fit: cover;
+	/* 4 sides on each photo */
+	margin: calc(10% / 6);
+}
+nav {
+	text-transform: uppercase;
+	font-size: 1.5em;
+	border-bottom: 2px solid #f1f1f1;
+	margin-left: calc(10% / 6);
+	padding: 1.2em 0;
+	width: 30%;
+}
